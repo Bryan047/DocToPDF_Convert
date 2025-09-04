@@ -1,0 +1,26 @@
+{
+  "name": "doctopdf_convert",
+  "version": "1.0.0",
+  "description": "โปรเจค แปลงไฟล์รวมไฟล์ PDF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryan047/DocToPDF_Convert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryan047/DocToPDF_Convert/issues"
+  },
+  "homepage": "https://github.com/Bryan047/DocToPDF_Convert#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "docx-pdf": "^0.0.1",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
