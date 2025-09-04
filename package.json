@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/Bryan047/DocToPDF_Convert#readme",
   "dependencies": {
+    "@ironsoftware/ironpdf": "^2025.9.1",
     "body-parser": "^2.2.0",
     "docx-pdf": "^0.0.1",
     "express": "^5.1.0",
-    "multer": "^2.0.2"
+    "multer": "^2.0.2",
+    "pdfkit": "^0.17.2"
   }
 }

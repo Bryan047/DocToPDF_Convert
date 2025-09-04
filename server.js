@@ -35,7 +35,7 @@ app.post("/docxtopdf", upload.single('file'), (req, res) => {
     console.log('file path', req.file.path);
 
     //Genrate a unique output file path for the converted PDF
-    let outputfilepath = Date.now() + "output.pdf";
+    let outputfilepath = Date.now() + ".pdf";
 
     //convert DOCX to PDF 
     docxtopdf(req.file.path, outputfilepath, (err, result) => {
